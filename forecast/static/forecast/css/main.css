@@ -8,7 +8,7 @@ a {
 }
 
 a:hover {
-	color: red;
+	color: blue;
 }
 
 input{
@@ -70,5 +70,24 @@ a.searchText{
 	width: 100%;
 	border-top: 3px double black;
 	padding: 0 auto;
+}
+
+.weather{
+	margin:2% 20%;
+}
+.summary{
+	padding:5%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mainweather{
+	margin: auto 35%;
+}
+#wicon{
+	font-size: 400%;
+}
+#wdesc{
+	padding:4%;
+	font-size: 400%;
 }
 
