@@ -8,14 +8,18 @@ a {
 }
 
 a:hover {
-	color: red;
+	color: blue;
+}
+
+input{
+	width: 85%;
+	font-size: 30px;
 }
 
 .navbar {
 	height: 10%;
 	border-bottom: 5px double black;
 }
-
 
 .navitems {
 	padding: 0 5%;
@@ -24,15 +28,35 @@ a:hover {
 	font-size: 20px;
 }
 
+
+.search{
+	width: 60%;
+	height: 40%;
+	margin: 15px auto;
+}
+
+.searchitems{
+	padding: 0 5px;
+	align: center;
+	margin: 0 auto;
+	font-size: 30px;
+
+}
+
+.location,a.searchIcon {
+	background-color: #d7dbe2;
+	font-size: 30px;	
+}
+
+a.searchText{
+	height: 100%;
+	font-size: 30px;
+}
+
 .footitems {
 	padding: 5% 5%;
 	top: -5px;
 	font-size: 20px;
-}
-
-.content{
-	width: 80%;
-	background-color: #e8f0ff;
 }
 
 #logo{
@@ -45,5 +69,25 @@ a:hover {
 	bottom: 0;
 	width: 100%;
 	border-top: 3px double black;
+	padding: 0 auto;
+}
+
+.weather{
+	margin:2% 20%;
+}
+.summary{
+	padding:5%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mainweather{
+	margin: auto 35%;
+}
+#wicon{
+	font-size: 400%;
+}
+#wdesc{
+	padding:4%;
+	font-size: 400%;
 }
 
